@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F39DD2D29246E4B007D6E99 /* ScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39DD2C29246E4B007D6E99 /* ScreenViewController.swift */; };
 		1F7A580B2919930800E7E59A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A580A2919930800E7E59A /* AppDelegate.swift */; };
 		1F7A580D2919930800E7E59A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A580C2919930800E7E59A /* SceneDelegate.swift */; };
-		1F7A580F2919930800E7E59A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A580E2919930800E7E59A /* ViewController.swift */; };
+		1F7A580F2919930800E7E59A /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A580E2919930800E7E59A /* ColorViewController.swift */; };
 		1F7A58122919930800E7E59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A58102919930800E7E59A /* Main.storyboard */; };
 		1F7A58142919930900E7E59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A58132919930900E7E59A /* Assets.xcassets */; };
 		1F7A58172919930900E7E59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A58152919930900E7E59A /* LaunchScreen.storyboard */; };
+		1FFBADB729252B3200CD5453 /* ColorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFBADB629252B3200CD5453 /* ColorDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F7A58072919930800E7E59A /* TASK 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TASK 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F39DD2C29246E4B007D6E99 /* ScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController.swift; sourceTree = "<group>"; };
+		1F7A58072919930800E7E59A /* ColorTheScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTheScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7A580A2919930800E7E59A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F7A580C2919930800E7E59A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F7A580E2919930800E7E59A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F7A580E2919930800E7E59A /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		1F7A58112919930800E7E59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F7A58132919930900E7E59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F7A58162919930900E7E59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F7A58182919930900E7E59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFBADB629252B3200CD5453 /* ColorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,7 @@
 		1F7A57FE2919930800E7E59A = {
 			isa = PBXGroup;
 			children = (
-				1F7A58092919930800E7E59A /* TASK 2 */,
+				1F7A58092919930800E7E59A /* ColorTheScreen */,
 				1F7A58082919930800E7E59A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +52,33 @@
 		1F7A58082919930800E7E59A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F7A58072919930800E7E59A /* TASK 2.app */,
+				1F7A58072919930800E7E59A /* ColorTheScreen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F7A58092919930800E7E59A /* TASK 2 */ = {
+		1F7A58092919930800E7E59A /* ColorTheScreen */ = {
 			isa = PBXGroup;
 			children = (
 				1F7A580A2919930800E7E59A /* AppDelegate.swift */,
 				1F7A580C2919930800E7E59A /* SceneDelegate.swift */,
-				1F7A580E2919930800E7E59A /* ViewController.swift */,
+				1F39DD2C29246E4B007D6E99 /* ScreenViewController.swift */,
+				1F7A580E2919930800E7E59A /* ColorViewController.swift */,
+				1FFBADB629252B3200CD5453 /* ColorDelegate.swift */,
 				1F7A58102919930800E7E59A /* Main.storyboard */,
 				1F7A58132919930900E7E59A /* Assets.xcassets */,
 				1F7A58152919930900E7E59A /* LaunchScreen.storyboard */,
 				1F7A58182919930900E7E59A /* Info.plist */,
 			);
-			path = "TASK 2";
+			path = ColorTheScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F7A58062919930800E7E59A /* TASK 2 */ = {
+		1F7A58062919930800E7E59A /* ColorTheScreen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F7A581B2919930900E7E59A /* Build configuration list for PBXNativeTarget "TASK 2" */;
+			buildConfigurationList = 1F7A581B2919930900E7E59A /* Build configuration list for PBXNativeTarget "ColorTheScreen" */;
 			buildPhases = (
 				1F7A58032919930800E7E59A /* Sources */,
 				1F7A58042919930800E7E59A /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "TASK 2";
+			name = ColorTheScreen;
 			productName = "TASK 2";
-			productReference = 1F7A58072919930800E7E59A /* TASK 2.app */;
+			productReference = 1F7A58072919930800E7E59A /* ColorTheScreen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F7A58022919930800E7E59A /* Build configuration list for PBXProject "TASK 2" */;
+			buildConfigurationList = 1F7A58022919930800E7E59A /* Build configuration list for PBXProject "ColorTheScreen" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F7A58062919930800E7E59A /* TASK 2 */,
+				1F7A58062919930800E7E59A /* ColorTheScreen */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7A580F2919930800E7E59A /* ViewController.swift in Sources */,
+				1FFBADB729252B3200CD5453 /* ColorDelegate.swift in Sources */,
+				1F39DD2D29246E4B007D6E99 /* ScreenViewController.swift in Sources */,
+				1F7A580F2919930800E7E59A /* ColorViewController.swift in Sources */,
 				1F7A580B2919930800E7E59A /* AppDelegate.swift in Sources */,
 				1F7A580D2919930800E7E59A /* SceneDelegate.swift in Sources */,
 			);
@@ -289,7 +297,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DHX7XMX27C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TASK 2/Info.plist";
+				INFOPLIST_FILE = ColorTheScreen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AR.TASK-2";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.ColorTheScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DHX7XMX27C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TASK 2/Info.plist";
+				INFOPLIST_FILE = ColorTheScreen/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AR.TASK-2";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.ColorTheScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F7A58022919930800E7E59A /* Build configuration list for PBXProject "TASK 2" */ = {
+		1F7A58022919930800E7E59A /* Build configuration list for PBXProject "ColorTheScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F7A58192919930900E7E59A /* Debug */,
@@ -348,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F7A581B2919930900E7E59A /* Build configuration list for PBXNativeTarget "TASK 2" */ = {
+		1F7A581B2919930900E7E59A /* Build configuration list for PBXNativeTarget "ColorTheScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F7A581C2919930900E7E59A /* Debug */,
